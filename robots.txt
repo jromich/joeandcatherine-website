@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /img/ # This is an infinite virtual URL space
+Disallow: /fonts/ 
+Disallow: /js/ 
+Disallow: /css/  
