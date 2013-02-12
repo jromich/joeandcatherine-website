@@ -1,16 +1,44 @@
 body {
-  padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+  margin-top: 40px;
   width: 14000px;
+  height: 1200px;
   /*background-color: #111;*/
   background-color: black;
   font-size: 14px;
-  overflow-y: hidden;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  overflow:hidden;
+  -webkit-overflow-scrolling:touch;
 }
 
 .centered-text {
     text-align:center
 }
 
+
+/*.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0px;
+  z-index: 1030;
+  margin-bottom: 200px;
+  margin-top: 30px;
+  min-height: 200px;
+}*/
+
+/*div, p, a, li, td { -webkit-text-size-adjust:none; }
+*/
+
+/*.navbar .container { min-height: 83px; }*/
+
+
+
+/*@media (min-width: $navbarCollapseWidth + 1) {
+  .nav-collapse.collapse {
+      height: auto !important;
+      overflow: visible !important;
+  }
+}*/
 
 .star {
   background: url('../img/star2013.png') no-repeat;
@@ -125,6 +153,7 @@ color: #fff;
     font-family: 'melany_laneregular', Georgia, serif;
     font-size: 5em;
     color: white;
+    /*margin-left: 20px;*/
   }
 
 
@@ -148,15 +177,71 @@ color: #fff;
     height: 1000px;
     width: 2000px;
     position: relative;
-    /*margin 0;*/
   }
 
 .pageinner {
   width: 940px;
-  margin-left: 100px;
-  margin-top: 35px;
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: auto;
   margin-right: auto;
 }
+
+  @media (max-width: 788px) {
+    .pageinner {
+      /*margin-top: 85px;*/
+      margin-left: 20px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+
+    .navbar .nav > li > a {
+      padding: 5px 10px 5px;
+    }
+
+   }
+
+  @media (max-width: 609px) {
+    .pageinner {
+      /*margin-top: 75px;*/
+      margin-left: 10px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+
+    .navbar {
+    font-family: 'Maiden Orange', Georgia, serif;
+    font-size: 0.8em;
+    background: black;
+    line-height: 1em;
+    }
+
+    .navbar {
+    font-family: 'Maiden Orange', Georgia, serif;
+    font-size: 0.9em;
+    background: black;
+    line-height: 1em;
+    }
+
+    .navbar .nav > li > a {
+      padding: 0px 5px 5px 5px;
+    }
+
+    .navcontainer {
+    margin-left: 10px;
+    }
+
+    .star {
+      background: none;
+    }
+
+
+
+  }
+
+
 
 #home {
   background: url('../img/homelight.jpg') bottom left  no-repeat;
