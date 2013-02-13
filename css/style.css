@@ -1,13 +1,13 @@
 body {
   margin-top: 40px;
   width: 14000px;
-  height: 1200px;
+  height: 100px;
   /*background-color: #111;*/
   background-color: black;
   font-size: 14px;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
-  overflow:hidden;
-  -webkit-overflow-scrolling:touch;
+  /*overflow:hidden;*/
+  /*-webkit-overflow-scrolling:touch;*/
 }
 
 .centered-text {
@@ -112,8 +112,6 @@ color: #fff;
 }
 
 
-  @import url(http://fonts.googleapis.com/css?family=Maiden+Orange);
-
 
 .navbar .brand {
   font-family: 'melany_laneregular';
@@ -189,8 +187,8 @@ color: #fff;
 
   @media (max-width: 788px) {
     .pageinner {
-      /*margin-top: 85px;*/
-      margin-left: 20px;
+      margin-top: 50px;
+      margin-left: 25px;
     }
     h1 {
       font-size: 3em;
@@ -205,7 +203,7 @@ color: #fff;
   @media (max-width: 609px) {
     .pageinner {
       /*margin-top: 75px;*/
-      margin-left: 10px;
+      margin-left: 15px;
     }
     h1 {
       font-size: 3em;
@@ -244,7 +242,7 @@ color: #fff;
 
 
 #home {
-  background: url('../img/homelight.jpg') bottom left  no-repeat;
+  background: url('../img/ship.jpg') bottom left  no-repeat;
 }
 
 #home h2 {
@@ -252,9 +250,11 @@ color: #fff;
 }
 
 .homecontent {
-  margin-left: 390px ;
-  margin-top: 200px;
+  margin-left: 450px ;
+  margin-top: 210px;
 }
+
+
 
 #about {
   background: url('../img/boats.jpg') bottom left  no-repeat;
