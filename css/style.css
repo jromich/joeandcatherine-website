@@ -1,6 +1,6 @@
 body {
   margin-top: 40px;
-  width: 14000px;
+  width: 11000px;
   height: 100px;
   /*background-color: #111;*/
   background-color: black;
@@ -12,6 +12,15 @@ body {
 
 .centered-text {
     text-align:center
+}
+
+.thumbnail {
+    background: #fff;
+  }
+
+.fancybox-thumb {
+    width: 75px;
+    height: 75px;
 }
 
 
@@ -177,7 +186,23 @@ color: #fff;
     position: relative;
   }
 
+  .narrowpage {
+    float: left;
+    display: block;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+  }
+
 .pageinner {
+  width: 940px;
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.narrowpageinner {
   width: 940px;
   margin-left: 50px;
   margin-top: 80px;
@@ -299,6 +324,15 @@ color: #fff;
 }
 
 #registry {
-  background: url('../img/plane.jpg') bottom left  no-repeat;;
+  /*background: url('../img/plane.jpg') bottom left  no-repeat;;*/
+  background: url('../img/tile.png') bottom left repeat;
 }
 
+#registry h1 {
+ color: #6C4D4D;
+
+}
+
+#registry h2 {
+ color: #46BDF7;
+}
