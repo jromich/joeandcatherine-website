@@ -27,7 +27,9 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="ico/favicon.png">--></head>
+  -->
+
+</head>
 
 <body data-spy="scroll" data-target="#navbarspy">
 
@@ -65,6 +67,9 @@
         </li>
         <li>
           <a href="#registry">Registry</a>
+        </li>
+        <li>
+          <a href="#rsvp">RSVP</a>
         </li>
       </ul>
     </div>
@@ -209,14 +214,14 @@
 
     <div class="span3">
 
-      <!--         <iframe width="260" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=201663297993057728238.0004d574fd79726796d66&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=41.94417,-70.028229&amp;spn=0.357507,0.357056&amp;z=10&amp;output=embed"></iframe>
+              <iframe width="260" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=201663297993057728238.0004d574fd79726796d66&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=41.94417,-70.028229&amp;spn=0.357507,0.357056&amp;z=10&amp;output=embed"></iframe>
     <br />
     <small>
       View
       <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=201663297993057728238.0004d574fd79726796d66&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=41.94417,-70.028229&amp;spn=0.357507,0.357056&amp;z=10&amp;source=embed" style="color:#0000FF;text-align:left">Catherine and Joe Wedding 2013</a>
       in a larger map
     </small>
-    -->
+
   </div>
 </div>
 </div>
@@ -394,9 +399,9 @@ Additional information about area weather:
 <h1>
   <br></h1>
 <br>
-<div class="span10">
-  <div class="row well">
-    <div class="span4 ">
+<div class="span4 well">
+  <div class="row">
+    <div class="span41">
       <h2>Registry</h2>
       <p>
         We are so excited to share our wedding with you on the Cape! Having you at the wedding is present enough for us. For those that want to give a gift, we have created a registry for our honeymoon. We are lucky to have all the kitchen / home goods we need and would love help to take our first trip as a married couple in China and Vietnam in September.
@@ -407,15 +412,33 @@ Additional information about area weather:
         </a>
       </p>
     </div>
-    <div class="span5">
+</div>
+  <div class="row">
+    <div class="span41">
       <img class="thumbnail" src="img/plane2.jpg"/>
     </div>
   </div>
 </div>
+
 </div>
 </div>
 
 <!-- end of registry -->
+
+  <div id="rsvp" class="page">
+    <div class="pageinner">
+          <h1 class="">Réspondez S'il Vous Plaît</h1>
+      <div class="span6 well">
+        <h2>RSVP</h2>
+        <p>Hope you can make it!  Please RSVP by May 1st.  If you have any problems with the form or would prefer phone/email, please get in touch.</p>
+
+<iframe src="https://docs.google.com/forms/d/1IqmzGp5g79pPqtWTo3Wxf2pP4cVlK1Y4ZnyvpW2nn58/viewform?embedded=true" width="460" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+
+    </div>
+  </div>
+
+<!-- end of rsvp -->
 
 
 
@@ -440,6 +463,8 @@ Additional information about area weather:
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
   <script type="text/javascript">
       $(document).ready(function () {
         //scrolling
@@ -449,8 +474,9 @@ Additional information about area weather:
 
       //fancybox
       $(".fancybox-thumb").fancybox({
+
         helpers : {
-          title : {
+            title : {
             type: 'over'
           },
           thumbs  : {
