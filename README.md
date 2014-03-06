@@ -1,10 +1,10 @@
-Wedding website
+###Wedding website
 
-see:
+Link to site:
 
-[joeandcatherine.com](http://www.joeandcatherine.com/)
+[www.joeandcatherine.com](http://www.joeandcatherine.com/)
 
-uses:
+Libraries / Code used:
 
 * [bootstrap](http://getbootstrap.com/)
 
