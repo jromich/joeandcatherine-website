@@ -87,6 +87,10 @@
         if ( active.parent('.dropdown-menu') )  {
           active.closest('li.dropdown').addClass('active')
         }
+
+       //jro added code to stop animation
+        $(document.getElementsByClassName("animate")).removeClass("animate")
+        $(target).addClass("animate")
       }
 
   }
